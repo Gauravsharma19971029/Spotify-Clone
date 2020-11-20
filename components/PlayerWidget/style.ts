@@ -4,14 +4,12 @@ import Colors from '../../constants/Colors'
 const styles = StyleSheet.create({
   container: {
     position:"absolute",
-    flexDirection: "row",
     bottom:37,
     backgroundColor:"#131313",
     margin:10,
     width:"100%",
     borderWidth:1,
-    borderColor:"black",
-    alignItems:"center",
+    borderColor:"black", 
   },
   rightContainer: {
     flex:1,
@@ -31,6 +29,9 @@ const styles = StyleSheet.create({
     flexDirection:"row",
     alignItems:"center"
   },
+  row:{
+    flexDirection:"row"
+  },
   image: {
     height: 75,
     width: 75,
@@ -48,6 +49,11 @@ const styles = StyleSheet.create({
     fontSize:18,
     fontWeight:"400"
   },
+  progress:{
+    height:3,
+    width:"100%",
+    backgroundColor:"#bcbcbc"
+  }
 });
 
 export default styles;
